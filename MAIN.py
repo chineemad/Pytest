@@ -12,10 +12,5 @@ for s in MyDBCommand.SQLite.QueryToList(sSql,sDBName):
 sSql = "SELECT address FROM stores WHERE address like '%台南市%'"
 print(MyDBCommand.SQLite.QueryValue(sSql,sDBName))
 
-#123
-
-#333
-
-#444
-
-#555
+sSql = "SELECT address FROM stores "
+print(MyDBCommand.SQLite.QueryValue(sSql,sDBName))
